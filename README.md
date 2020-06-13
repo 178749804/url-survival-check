@@ -17,14 +17,14 @@ python3 url_survival_check_max.py url.txt
 * `url_survival_check_max.py`的检测结果既包括存活的URL，也包括不存活的URL，保存结果文件为`result_max.txt`
 # 使用示例
 ```
-> python url_survival_check_min.py url.txt
+> python3 url_survival_check_min.py url.txt
 http://xxx1.com  Not Survival
 https://xxx1.com
 http://xxx2.com
 https://xxx2.com  Not Survival
 ```
 ```
-> python url_survival_check_max.py url.txt
+> python3 url_survival_check_max.py url.txt
 http://xxx1.com  Not Survival
 https://xxx1.com
 http://xxx2.com
